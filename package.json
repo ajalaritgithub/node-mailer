@@ -1,17 +1,13 @@
 {
-  "name": "com.ajalaajith.hospital",
+  "name": "com.ajalaajith.nodemailer",
   "version": "1.0.0",
-  "description": "CRUD operation",
+  "description": "Mail to AnyOne",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Create",
-    "Read",
-    "Update",
-    "Delete",
-    "Patient"
+    "Mail"
   ],
   "author": "Ajala Ajith",
   "license": "ISC",
