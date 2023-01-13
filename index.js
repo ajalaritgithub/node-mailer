@@ -12,14 +12,14 @@ app.post("/mail",async(req,res)=>{
     let transporter = nodeMailer.createTransport({
        service: 'gmail',
        auth: {
-        user: 'n.ik0212hil@gmail.com',
-        pass: 'yhunffwzqnivzuhp'
+        user: 'ajalaajith007@gmail.com',
+        pass: 'zehvqfpqkcmcjilo'
        } 
       });
 
       const message ={
-        from: 'n.ik0212hil@gmail.com', 
-        to: 'ajalaajith2023@gmail.com', 
+        from: 'ajalaajith007@gmail.com', 
+        to: 'n.ik0212hil@gmail.com', 
         subject: "DEMO ASSIGMENT", 
         text: "Please check, this was the DEMO ASSIGMENT NODE MAIL", 
       }
